@@ -10,7 +10,6 @@ This project implements an AI model to control a space lander in a simulation ga
 - **Grid Search Optimization**: Tuned hyperparameters (learning rate, momentum, hidden neurons) to find the best-performing model.
 - **Integration in Gameplay**: The trained model is used to control the space lander in real-time.
 - **Extensive Dataset**: Created and used a dataset with over 200,000 samples for training and evaluation.
-- **Video Demonstration**: [Watch the AI in action on GitHub](#).
 
 ---
 
@@ -41,3 +40,5 @@ The training process involves:
 - **Stopping Criterion**: Training stops early if validation loss stagnates.
 
 To train the model, run the trainer.ipynb file.
+
+To play the game, install the required libraries and run python game/Main.py
